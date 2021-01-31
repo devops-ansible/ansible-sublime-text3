@@ -38,6 +38,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-twiglint",
+		"SublimeLinter-contrib-yaml-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
