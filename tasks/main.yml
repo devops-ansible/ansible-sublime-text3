@@ -2,9 +2,11 @@
 - name: Ensure Sublime-Text is installed
   homebrew: "name=sublime-text state=absent"
 
-- synchronize:
+- name: sync all Plugins and Configs into Folder
+  synchronize:
     src: "Library/Packages/"
     dest: "~/Library/Application Support/Sublime Text 3/Packages/"
 
-- command: npm install -g csslint
+- name: install CSS-Linter via NPM
+  command: npm install -g csslint
 
